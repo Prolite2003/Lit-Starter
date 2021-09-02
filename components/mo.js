@@ -6,17 +6,27 @@ import { LitElement, html } from 'lit-element';
 class MyOwnTemplate extends LitElement {
 render(){
     return html`
+    <style>
+      p {
+        border: solid 1px blue;
+        padding: 8px;
+      }
+    </style>
     <div>
-<p> This is a test</p>
+    <p> Test </p>
     </div>
+    
     `;
 }
   
 }
+customElements.define('mo-t', MyOwnTemplate);
 
 class MyOwnFont extends LitElement {
     render(){
         return html`
+    <link rel="stylesheet" href="../css/style.css">
+
         <div>
     <p> This is a test</p>
         </div>
@@ -24,5 +34,5 @@ class MyOwnFont extends LitElement {
     }
       
     }
-customElements.define('mo-t', MyOwnTemplate);
+
 customElements.define('mo-f', MyOwnFont);
