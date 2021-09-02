@@ -39,4 +39,4 @@ class st extends it{static get styles(){return W`
         Click Count: ${this.count}
       </button>
       <slot></slot>
-    `}_onClick(){this.count++}}window.customElements.define("my-element",st);export{st as MyElement};
+    `}_onClick(){this.count++}}window.customElements.define("my-element",st);export{st as ProjectElementTest};
