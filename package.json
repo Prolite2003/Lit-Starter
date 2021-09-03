@@ -34,7 +34,9 @@
   "author": "Google LLC",
   "license": "BSD-3-Clause",
   "dependencies": {
+    "@vaadin/router": "^1.7.4",
     "@vaadin/vaadin-button": "^20.0.4",
+    "@vaadin/vaadin-charts": "^20.0.4",
     "@vaadin/vaadin-checkbox": "^20.0.4",
     "@vaadin/vaadin-radio-button": "^20.0.4",
     "@vaadin/vaadin-text-field": "^20.0.4",
